@@ -51,8 +51,8 @@ public class MainActivity extends Activity {
 
 
     private void compute(Calculator.Operator operator) {
-        double operandOne;
-        double operandTwo;
+        double operandOne= mOperandOne.getText().toString();;
+        double operandTwo= mOperandTwo.getText().toString();;
         String result=" ";
 
         switch (operator) {
